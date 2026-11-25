@@ -56,22 +56,17 @@ LUFFY/
 
 ### 📝 Complete TODO List
 
-- [ ] **luffy/deepscaler/utils.py:45** - Implement OpenAI API client initialization
-- [ ] **luffy/deepscaler/utils.py:46** - Add proper authentication handling
-- [ ] **luffy/deepscaler/utils.py:47** - Implement exponential backoff retry logic for rate limits
-- [ ] **luffy/deepscaler/utils.py:48** - Add comprehensive error handling for different API errors
-- [ ] **luffy/deepscaler/utils.py:49** - Implement response parsing and validation
-- [ ] **luffy/deepscaler/utils.py:50** - Add logging for API calls and errors
-- [ ] **luffy/deepscaler/utils.py:51** - Support batch processing for multiple prompts
-- [ ] **luffy/deepscaler/utils.py:52** - Add timeout configuration for API calls
-- [ ] **luffy/deepscaler/utils.py:88** - Implement Vertex AI initialization and authentication
-- [ ] **luffy/deepscaler/utils.py:89** - Configure safety settings for content generation
-- [ ] **luffy/deepscaler/utils.py:90** - Set up GenerativeModel with proper system instructions
-- [ ] **luffy/deepscaler/utils.py:91** - Implement retry logic with exponential backoff
-- [ ] **luffy/deepscaler/utils.py:92** - Add comprehensive error handling for API access issues
-- [ ] **luffy/deepscaler/utils.py:93** - Handle rate limiting and quota management
-- [ ] **luffy/deepscaler/utils.py:94** - Implement response validation and text extraction
-- [ ] **luffy/deepscaler/utils.py:95** - Add support for different generation configurations
+- [ ] **luffy/deepscaler/utils.py:45** - Add logging for API calls and errors
+- [ ] **luffy/deepscaler/utils.py:46** - Support batch processing for multiple prompts
+- [ ] **luffy/deepscaler/utils.py:47** - Add timeout configuration for API calls
+- [ ] **luffy/deepscaler/utils.py:107** - Implement Vertex AI initialization and authentication
+- [ ] **luffy/deepscaler/utils.py:108** - Configure safety settings for content generation
+- [ ] **luffy/deepscaler/utils.py:109** - Set up GenerativeModel with proper system instructions
+- [ ] **luffy/deepscaler/utils.py:110** - Implement retry logic with exponential backoff
+- [ ] **luffy/deepscaler/utils.py:111** - Add comprehensive error handling for API access issues
+- [ ] **luffy/deepscaler/utils.py:112** - Handle rate limiting and quota management
+- [ ] **luffy/deepscaler/utils.py:113** - Implement response validation and text extraction
+- [ ] **luffy/deepscaler/utils.py:114** - Add support for different generation configurations
 - [ ] **luffy/test.py:1590** - add smaller page sizes when https://github.com/Dao-AILab/flash-attention/pull/824 is merged
 - [ ] **luffy/verl/examples/split_placement/split_monkey_patch.py:141** - make a canonical logger that supports various backend
 - [ ] **luffy/verl/tests/e2e/check_results.py:21** - this function needs error handling
@@ -89,14 +84,14 @@ LUFFY/
 - [ ] **luffy/verl/verl/mix_src/mix_fsdp_worker.py:199** - (zhangchi.usc1992, shengguangming) fix me. Current, auto_wrap_policy causes HFRollout to hang in Gemma
 - [ ] **luffy/verl/verl/mix_src/mix_fsdp_worker.py:207** - add transformer policy
 - [ ] **luffy/verl/verl/mix_src/mix_fsdp_worker.py:226** - add more optimizer args into config
-- [ ] **luffy/verl/verl/mix_src/mix_fsdp_worker.py:252** - (sgm): support FSDP hybrid shard for larger model
+- [ ] **luffy/verl/verl/mix_src/mix_fsdp_worker.py:253** - (sgm): support FSDP hybrid shard for larger model
 - [ ] **luffy/verl/verl/mix_src/mix_fsdp_worker.py:263** - a sharding manager that do nothing?
-- [ ] **luffy/verl/verl/mix_src/mix_fsdp_worker.py:391** - here, we should return all metrics
+- [ ] **luffy/verl/verl/mix_src/mix_fsdp_worker.py:392** - here, we should return all metrics
 - [ ] **luffy/verl/verl/mix_src/mix_fsdp_worker.py:517** - support DCP and save sharded checkpoints
-- [ ] **luffy/verl/verl/mix_src/mix_trainer.py:90** - add other ways to estimate advantages
-- [ ] **luffy/verl/verl/mix_src/mix_trainer.py:168** - support each role have individual ray_worker_group_cls,
-- [ ] **luffy/verl/verl/mix_src/mix_trainer.py:293** - we have to make sure the batch size is divisible by the dp size
-- [ ] **luffy/verl/verl/mix_src/mix_trainer.py:599** - make a canonical logger that supports various backend
+- [ ] **luffy/verl/verl/mix_src/mix_trainer.py:94** - add other ways to estimate advantages
+- [ ] **luffy/verl/verl/mix_src/mix_trainer.py:101** - support each role have individual ray_worker_group_cls,
+- [ ] **luffy/verl/verl/mix_src/mix_trainer.py:176** - we have to make sure the batch size is divisible by the dp size
+- [ ] **luffy/verl/verl/mix_src/mix_trainer.py:476** - make a canonical logger that supports various backend
 - [ ] **luffy/verl/verl/mix_src/mix_trainer.py:637** - add response length
 - [ ] **luffy/verl/verl/mix_src/mix_trainer_acc_rebatch.py:63** - we have to make sure the batch size is divisible by the dp size
 - [ ] **luffy/verl/verl/mix_src/mix_trainer_acc_rebatch.py:437** - make a canonical logger that supports various backend
